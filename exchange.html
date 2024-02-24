@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0" />
+    <style>
+        .material-symbols-outlined {
+            font-variation-settings:
+                'FILL' 1,
+                'wght' 400,
+                'GRAD' 0,
+                'opsz' 24
+        }
+    </style>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="src/assets/images/apple-touch-icon.jpg">
+
+
+
+</head>
+
+<body>
+    <nav class="navbar  sticky-top navbar-expand-lg" style="          background-color: #424242;
+
+
+    ">
+        <div class="container">
+
+            <div class="logo">
+                <img src="kids bazaar/logo.png" alt="">
+            </div>
+            <button class="navbar-toggler" class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasExample" aria-controls="offcanvasExample"
+                style="background-color:white;margin:0px 5px;">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+
+
+
+
+            <div class="collapse navbar-collapse " id="navbarScroll">
+                <ul class="navbar-nav mx-auto my-2 my-lg-0 navbar-nav-scroll mynav" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item" style="    color: yellow;   
+                            border-radius: 10px;
+                        ">
+                        <a class="nav-link active" aria-current="page" href="shop.html"
+                            style="color: yellow;border-left: 3px solid yellow;">
+                            <svg style="height: 20px;width:20px;" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 640 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                <path fill="#FFD43B"
+                                    d="M36.8 192H603.2c20.3 0 36.8-16.5 36.8-36.8c0-7.3-2.2-14.4-6.2-20.4L558.2 21.4C549.3 8 534.4 0 518.3 0H121.7c-16 0-31 8-39.9 21.4L6.2 134.7c-4 6.1-6.2 13.2-6.2 20.4C0 175.5 16.5 192 36.8 192zM64 224V384v80c0 26.5 21.5 48 48 48H336c26.5 0 48-21.5 48-48V384 224H320V384H128V224H64zm448 0V480c0 17.7 14.3 32 32 32s32-14.3 32-32V224H512z" />
+                            </svg>
+
+                            Kids
+                            Bazaar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="shoes.html" role="button" aria-expanded="false">
+                            <svg style="height: 20px;width:20px" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 640 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                <path fill="#f7f7f8"
+                                    d="M416 0C352.3 0 256 32 256 32V160c48 0 76 16 104 32s56 32 104 32c56.4 0 176-16 176-96S512 0 416 0zM128 96c0 35.3 28.7 64 64 64h32V32H192c-35.3 0-64 28.7-64 64zM288 512c96 0 224-48 224-128s-119.6-96-176-96c-48 0-76 16-104 32s-56 32-104 32V480s96.3 32 160 32zM0 416c0 35.3 28.7 64 64 64H96V352H64c-35.3 0-64 28.7-64 64z" />
+                            </svg>
+                            Shoes/Sandals
+                        </a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link " href="watch.html" aria-expanded="false">
+                            <svg style="height: 20px;width:20px" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                <path fill="#ffffff"
+                                    d="M464 256A208 208 0 1 1 48 256a208 208 0 1 1 416 0zM0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zM232 120V256c0 8 4 15.5 10.7 20l96 64c11 7.4 25.9 4.4 33.3-6.7s4.4-25.9-6.7-33.3L280 243.2V120c0-13.3-10.7-24-24-24s-24 10.7-24 24z" />
+                            </svg>
+                            Watches
+                        </a>
+
+                    <li class="nav-item">
+                        <a class="nav-link " href="#contactus">
+                            <svg style="height: 20px;width:20px" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                <path fill="#ffffff"
+                                    d="M123.6 391.3c12.9-9.4 29.6-11.8 44.6-6.4c26.5 9.6 56.2 15.1 87.8 15.1c124.7 0 208-80.5 208-160s-83.3-160-208-160S48 160.5 48 240c0 32 12.4 62.8 35.7 89.2c8.6 9.7 12.8 22.5 11.8 35.5c-1.4 18.1-5.7 34.7-11.3 49.4c17-7.9 31.1-16.7 39.4-22.7zM21.2 431.9c1.8-2.7 3.5-5.4 5.1-8.1c10-16.6 19.5-38.4 21.4-62.9C17.7 326.8 0 285.1 0 240C0 125.1 114.6 32 256 32s256 93.1 256 208s-114.6 208-256 208c-37.1 0-72.3-6.4-104.1-17.9c-11.9 8.7-31.3 20.6-54.3 30.6c-15.1 6.6-32.3 12.6-50.1 16.1c-.8 .2-1.6 .3-2.4 .5c-4.4 .8-8.7 1.5-13.2 1.9c-.2 0-.5 .1-.7 .1c-5.1 .5-10.2 .8-15.3 .8c-6.5 0-12.3-3.9-14.8-9.9c-2.5-6-1.1-12.8 3.4-17.4c4.1-4.2 7.8-8.7 11.3-13.5c1.7-2.3 3.3-4.6 4.8-6.9c.1-.2 .2-.3 .3-.5z" />
+                            </svg>
+                            Contact Us
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="logi">
+                <a href="#my" class="btn  book" data-bs-toggle="modal" data-bs-target="#staticBackdrop1"
+                >Login</a>
+                <a href="#my" class="btn  book" data-bs-toggle="modal" data-bs-target="#staticBackdrop2"
+                    >
+
+                    Sign Up
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="offcanvas offcanvas-start bg-dark text-white" tabindex="-1" id="offcanvasExample"
+        aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+            <div class="offcanvas-title" id="offcanvasExampleLabel"
+                style="text-decoration:#222222 line-through;font-weight: bold;color: gold;">
+                    <img src="kids bazaar/logo.png" alt="" style="height: 80px;width: 80px;border-radius: 40px;">
+                
+            </div>
+            <button type="button" class="btn-close bg-danger" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body" style="background-color: #222222;">
+            <div>
+                <div class="offcanva ">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 mynav">
+                        <li class="nav-item" style="    color: yellow;   
+                                border-radius: 10px;
+                            ">
+                            <a class="nav-link active" aria-current="page" href="shop.html" style="color: yellow;">
+                                <svg style="height: 20px;width:20px;" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 640 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                    <path fill="#FFD43B"
+                                        d="M36.8 192H603.2c20.3 0 36.8-16.5 36.8-36.8c0-7.3-2.2-14.4-6.2-20.4L558.2 21.4C549.3 8 534.4 0 518.3 0H121.7c-16 0-31 8-39.9 21.4L6.2 134.7c-4 6.1-6.2 13.2-6.2 20.4C0 175.5 16.5 192 36.8 192zM64 224V384v80c0 26.5 21.5 48 48 48H336c26.5 0 48-21.5 48-48V384 224H320V384H128V224H64zm448 0V480c0 17.7 14.3 32 32 32s32-14.3 32-32V224H512z" />
+                                </svg>
+
+                                Kids
+                                Bazaar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="shoes.html" role="button" aria-expanded="false">
+                                <svg style="height: 20px;width:20px" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 640 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                    <path fill="#f7f7f8"
+                                        d="M416 0C352.3 0 256 32 256 32V160c48 0 76 16 104 32s56 32 104 32c56.4 0 176-16 176-96S512 0 416 0zM128 96c0 35.3 28.7 64 64 64h32V32H192c-35.3 0-64 28.7-64 64zM288 512c96 0 224-48 224-128s-119.6-96-176-96c-48 0-76 16-104 32s-56 32-104 32V480s96.3 32 160 32zM0 416c0 35.3 28.7 64 64 64H96V352H64c-35.3 0-64 28.7-64 64z" />
+                                </svg>
+                                Shoes/Sandals
+                            </a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link " href="watch.html" aria-expanded="false">
+                                <svg style="height: 20px;width:20px" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                    <path fill="#ffffff"
+                                        d="M464 256A208 208 0 1 1 48 256a208 208 0 1 1 416 0zM0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zM232 120V256c0 8 4 15.5 10.7 20l96 64c11 7.4 25.9 4.4 33.3-6.7s4.4-25.9-6.7-33.3L280 243.2V120c0-13.3-10.7-24-24-24s-24 10.7-24 24z" />
+                                </svg>
+                                Watches
+                            </a>
+
+                        <li class="nav-item">
+                            <a class="nav-link " href="">
+                                <svg style="height: 20px;width:20px" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                    <path fill="#ffffff"
+                                        d="M123.6 391.3c12.9-9.4 29.6-11.8 44.6-6.4c26.5 9.6 56.2 15.1 87.8 15.1c124.7 0 208-80.5 208-160s-83.3-160-208-160S48 160.5 48 240c0 32 12.4 62.8 35.7 89.2c8.6 9.7 12.8 22.5 11.8 35.5c-1.4 18.1-5.7 34.7-11.3 49.4c17-7.9 31.1-16.7 39.4-22.7zM21.2 431.9c1.8-2.7 3.5-5.4 5.1-8.1c10-16.6 19.5-38.4 21.4-62.9C17.7 326.8 0 285.1 0 240C0 125.1 114.6 32 256 32s256 93.1 256 208s-114.6 208-256 208c-37.1 0-72.3-6.4-104.1-17.9c-11.9 8.7-31.3 20.6-54.3 30.6c-15.1 6.6-32.3 12.6-50.1 16.1c-.8 .2-1.6 .3-2.4 .5c-4.4 .8-8.7 1.5-13.2 1.9c-.2 0-.5 .1-.7 .1c-5.1 .5-10.2 .8-15.3 .8c-6.5 0-12.3-3.9-14.8-9.9c-2.5-6-1.1-12.8 3.4-17.4c4.1-4.2 7.8-8.7 11.3-13.5c1.7-2.3 3.3-4.6 4.8-6.9c.1-.2 .2-.3 .3-.5z" />
+                                </svg>
+                                Contact Us
+                            </a>
+                        </li>
+
+                    </ul>
+                    <div class="logi">
+                        <a href="#my" class="btn  book" data-bs-toggle="modal" data-bs-target="#staticBackdrop1"
+                        >Login</a>
+                        <a href="#my" class="btn  book" data-bs-toggle="modal" data-bs-target="#staticBackdrop2"
+                        >
+        
+                            Sign Up
+                        </a>
+                    </div>
+        
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!--end-->
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" style="height: 260px;">
+            <div class="modal-content"
+                style="background-color: rgb(22, 22, 22);color: #fff;font-weight: 700;font-family: Arial, Helvetica, sans-serif;font-style: italic; border: 3px solid green;">
+                <div class="modal-header" style="border: none;border-bottom: 1px solid white;">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">LOGIN</h1>
+                    <button type="button" class="btn-close bg-danger" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body mx-auto" style="color: #fff;">
+                    <form action="https://formsubmit.co/saifrizwankhan786@gmail.com" method="post">
+                        <div class="main">
+                            <div class="label">
+                                <label for="us">
+                                    User Name
+                                </label>
+                            </div>
+                            <div class="input">
+                                <input type="text" name="us" id="" placeholder="Username" style="position: relative;">
+                                <!-- <span class="material-symbols-outlined"
+                                        style="position: absolute;right: 20px;color: blue;top:152px;">
+                                        person
+                                    </span> -->
+                            </div>
+
+                            <div class="label">
+                                <label for="us">
+                                    Email
+                                </label>
+                            </div>
+                            <div class="input">
+                                <input type="email" name="us" id="" placeholder="Enter your Email">
+                                <!-- <span class="material-symbols-outlined"
+                                        style="position: absolute;right: 20px;color: blue;bottom:200px;">
+                                        mail
+                                    </span> -->
+
+                            </div>
+                            <div class="gg" style="display: flex;gap: 10px;padding: 10px 0px;">
+                                <div class="label">
+                                    <label for="us">
+                                        Gender
+                                    </label>
+                                </div>
+
+                                <div class="input1">
+                                    <label for="ma">
+                                        <input type="radio" name="gender" value="Male" id="ma">
+
+                                        Male
+                                    </label>
+                                </div>
+
+                                <div class="input1">
+                                    <label for="fa">
+
+                                        <input type="radio" name="gender" value="Femail" class="i" id="fa">
+                                        Female
+                                    </label>
+                                </div>
+                            </div>
+
+                        </div>
+                </div>
+                <div class="modal-footer" style="border: none;border-top: 1px solid white;">
+
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Modal2 -->
+    <div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" style="height: 260px;">
+            <div class="modal-content"
+                style="background-color: rgb(22, 22, 22);color: #fff;font-weight: 700;font-family: Arial, Helvetica, sans-serif;font-style: italic; border: 3px solid green;">
+                <div class="modal-header" style="border: none;border-bottom: 1px solid white;">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Sign Up</h1>
+                    <button type="button" class="btn-close bg-danger" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body mx-auto" style="color: #fff;">
+                    <form action="https://formsubmit.co/saifrizwankhan786@gmail.com" method="post">
+                        <div class="main">
+                            <div class="label">
+                                <label for="us">
+                                    User Name
+                                </label>
+                            </div>
+                            <div class="input">
+                                <input type="text" name="us" id="" placeholder="Username" style="position: relative;">
+                                <!-- <span class="material-symbols-outlined"
+                                        style="position: absolute;right: 20px;color: blue;top:152px;">
+                                        person
+                                    </span> -->
+                            </div>
+
+                            <div class="label">
+                                <label for="us">
+                                    Email
+                                </label>
+                            </div>
+                            <div class="input">
+                                <input type="email" name="us" id="" placeholder="Enter your Email">
+
+                            </div>
+                            <div class="label">
+                                <label for="us">
+                                    Password
+                                </label>
+                            </div>
+                            <div class="input">
+                                <input type="password" name="us" id="" placeholder="Enter your Password">
+
+                            </div>
+
+                        </div>
+                </div>
+                <div class="modal-footer" style="border: none;border-top: 1px solid white;">
+
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <section>
+        <div class="row">
+            <div class="text">
+                <h1>Exchange & Return Policy</h1>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="row">
+            <div class="text">
+                <h2>WHAT IS YOUR EXCHANGE & RETURN POLICY?</h2>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="text">
+                    <p>
+                        <span> kids bazaar </span>has a 14Days Exchange & Return Policy except: <span>Toys</span> &
+                        <span>Jewelry</span>,. You may please send parcel to us through any courier company
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+                <h5>Note:</h5>
+
+                <div class="text">
+                    <p>
+
+                        Please note that items must be unused and contains all the original tags and packaging (if any).
+                        Once the items reach us, we will directly issue you a voucher through email which will be
+                        redeemable on your next purchase.
+                        - If you wish to return a product without any specific reason, delivery charges for the return
+                        will not be refunded by <span>kids bazaar</span>.be refunded by <span> kids bazaar</span>.
+
+
+                    </p>
+                    <h3 class="mt-5">
+                      <span>  KIDS BAZAAR</span> RESERVES THE RIGHT TO AMEND, ALTER OR MAKE CHANGES IN EXCHANGE POLICY WITHOUT PRIOR
+                        NOTICE. TERMS AND CONDITIONS APPLY
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer" id="contactus">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="text">
+                    <h5>Contact Us</h5>
+                </div>
+            </div>
+
+            <div class="row d-flex justify-content-center mt-3">
+                <div class="text">
+
+                    <h3>Drop Us a Line</h3>
+                </div>
+            </div>
+
+            <div class="myrow">
+                <form action="" method="post">
+                    <div class="on">
+                        <input type="text" name="Username" id="" value="" required placeholder="Username">
+                        <input type="email" name="Email" id="" value="" required placeholder="Email">
+                    </div>
+                    <div class="on">
+                        <input type="tel" name="Phone" id="" value="" required placeholder="Phone">
+                        <textarea name="Comments" id="" rows="1" value="" placeholder="Other Notes"></textarea>
+                    </div>
+                    <div class="on1">
+                        <button type="submit">
+                            Submit
+                        </button>
+                    </div>
+                </form>
+            </div>
+
+
+            <div class="row mt-3 ">
+                <diV class="col-lg-4 col-md-12 col-sm-12 ">
+                    <h1>Social Media</h1>
+                    <div class="icons">
+                        <a href="http://www.Facebook.com" target="_blank">
+                            <svg style="height:20px;width:20px" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                <path fill="#1d63dd"
+                                    d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5V334.2H141.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287V510.1C413.8 494.8 512 386.9 512 256h0z" />
+                            </svg>
+                            Facebook
+                        </a>
+                        <a href="http://www.instagram.com" target="_blank">
+                            <svg style="height:20px;width:20px" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                <path fill="#f22626"
+                                    d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+                            </svg>
+                            Instagram
+                        </a>
+                        <a href="http://www.twitter.com" target="_blank">
+                            <svg style="height:20px;width:20px" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                <path
+                                    d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z" />
+                            </svg>
+                            Twitter
+                        </a>
+                    </div>
+                </diV>
+                <diV class="col-lg-4 col-md-12 col-sm-12 ">
+                    <h1>Hours</h1>
+                    <p>Mon 9:00 am - 5:00 pm</p>
+                    <p>Tue 9:00 am - 5:00 pm</p>
+                    <p>Wed 9:00 am - 5:00 pm</p>
+                    <p>Thur 9:00 am - 5:00 pm</p>
+                    <p>Fri 9:00 am - 5:00 pm</p>
+                    <p>Sat Closed</p>
+                    <p>Sun Closed</p>
+                </diV>
+                <diV class="col-lg-4 col-md-12 col-sm-12  f-links">
+                    <h1>
+                        Quik Links
+                    </h1>
+                    <ul>
+                        <li><a href="privacypolicy.html">Privacy Policy</a></li>
+                        <li><a href="aboutus.html">About Us</a></li>
+                        <li><a href="terms.html">Terms & Conditions</a></li>
+                        <li><a href="exchange.html">Exchange & Return Policy</a></li>
+                        <li><a href="faqs.html">FAQS</a></li>
+                    </ul>
+                </diV>
+
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+
+</html>
